@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "M13Checkbox"
-  s.version      = "3.4.0"
+  s.version      = "3.4.0-LK"
   s.summary      = "A beautiful, customizable, extendable, animated checkbox for iOS."
 
   s.description  = <<-DESC
                    Create beautiful, customizable, extendable, animated checkboxes on iOS. Completely configurable through interface builder. See the demo app or playground to play with all the features.
                    DESC
 
-  s.homepage     = "https://github.com/Marxon13/M13Checkbox"
+  s.homepage     = "https://github.com/lightningkite/M13Checkbox"
   s.license      = {:type => 'MIT',
                     :text => <<-LICENSE
                     Copyright (c) 2016 Brandon McQuilkin
@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
 
   s.authors             = { "Brandon McQuilkin" => "brandon.mcquilkin@gmail.com", "Andrea Antonioni" => "andreaantonioni97@gmail.com" }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '12.0'
 
-  s.source = { :git => "https://github.com/Marxon13/M13Checkbox.git", :tag => "#{s.version}"}
+  s.source = { :git => "https://github.com/lightningkite/M13Checkbox.git", :tag => "#{s.version}"}
 
   s.source_files  = 'Sources/**/*'
 
